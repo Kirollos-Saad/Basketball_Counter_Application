@@ -1,16 +1,11 @@
-# basketball_counter_app
+# Basketball Counter App
 
-A new Flutter project.
+A simple mobile app built using Flutter to keep track of scores for two basketball teams, Team A and Team B. This app allows users to increment the score by 1 or 2 points and reset the score when needed.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Track scores for two teams.
+- Add 1 or 2 points to a team's score.
+- Reset team scores to zero.
+- Visually divide the scores of the two teams.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
