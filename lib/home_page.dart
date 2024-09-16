@@ -1,6 +1,6 @@
-
-
 import 'package:flutter/material.dart';
+
+import 'team_builder.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -20,26 +20,17 @@ class HomePage extends StatelessWidget {
       ),
       body: Row(
         children: [
-          Column(
-            children: [
-              const Text(
-                'Team A',
-                style: TextStyle(fontSize: 25.0),
-              ),
-              const SizedBox(
-                height: 10,
-              ),
-              const Text(
-                '0',
-                style: TextStyle(fontSize: 50.0),
-              ),
-              const SizedBox(
-                height: 10,
-              ),
-
-
-            ],
+          TeamBuilder(
+            teamName: 'Team A',
           ),
+          const VerticalDivider(
+            indent: 30.0,
+            endIndent: 450 ,
+            color: Colors.black,
+            thickness: 2.0,
+          ),
+          TeamBuilder(teamName: 'Team B'),
+
         ],
       ),
     );
